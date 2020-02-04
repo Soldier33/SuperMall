@@ -150,6 +150,7 @@ export default {
 <style  scoped>
   .wrapper {
     height: 150px;
-    background-color: red
+    background-color: red;
+    overflow: hidden;
   }
 </style> 

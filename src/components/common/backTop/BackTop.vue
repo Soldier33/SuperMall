@@ -8,9 +8,9 @@
 export default {
   name: 'BackTop',
   methods: {
-    backClick() {
-      this.$emit('backClick')
-    }
+    // backClick() {
+    //   this.$emit('backClick')
+    // }
   }
  }
 </script>

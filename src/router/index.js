@@ -37,7 +37,8 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  mode: 'history',
+  // mode: 'history',详情页刷新不出来
+  mode: 'hash',
   base: process.env.BASE_URL,
   routes
 })
